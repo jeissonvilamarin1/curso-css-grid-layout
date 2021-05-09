@@ -1,0 +1,232 @@
+:root{
+    --skin: #EFB17E;
+    --hair: #231F20;
+    --eyes: #21486D;
+    --suit: #0464B4;
+}
+body{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-inside{
+    height: 200px;
+    width: 200px;
+    background-color: var(--skin);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.eyebrow-left{
+    position: absolute;
+    width: 37px;
+    height: 10px;
+    background-color: var(--hair);
+    top: 62px;
+    left: 50px;
+    transform: rotate(4deg);
+}
+.eyebrow-left2{
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    background-color: var(--hair);
+    top: 65px;
+    left: 34px;
+    transform: rotate(150deg);
+}
+.eye-left{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--eyes);
+    top: 70px;
+    left: 60px;
+}
+.eyebrow-right{
+    position: absolute;
+    width: 37px;
+    height: 10px;
+    background-color: var(--hair);
+    top: 62px;
+    left: 110px;
+    transform: rotate(-4deg);
+}
+.eyebrow-right2{
+    position: absolute;
+    width: 20px;
+    height: 8px;
+    background-color: var(--hair);
+    top: 66px;
+    left: 144px;
+    transform: rotate(-150deg);
+}
+.eye-right{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--eyes);
+    top: 70px;
+    left: 120px;
+}
+.mouth{
+    width: 20px;
+    height: 10px;
+    background-color: #CF8385;
+    z-index: 5;
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.suit1{
+    width: 120px;
+    height: 50px;
+    background-color: var(--suit);
+    position: absolute;
+    top: 150px;
+    transform: rotate(10deg);
+    
+}
+.suit2{
+    width: 120px;
+    height: 50px;
+    background-color: var(--suit);
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    transform: rotate(350deg);
+    
+}
+.chest{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+
+
+.head-outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 220px;
+    position:relative;
+    top: -50px;
+    left: -210px;
+}
+.hair1{
+    width: 200px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--hair);
+    left: 10px;
+    top: 24px;
+    position: absolute;
+    z-index: 1;
+}
+.hair2{
+    position: absolute;
+    width: 15px;
+    height: 150px;
+    background-color: var(--hair);
+    top: 30px;
+    left: 5px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair3{
+    position: absolute;
+    width: 15px;
+    height: 125px;
+    background-color: var(--hair);
+    top: 20px;
+    left: 18px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair4{
+    position: absolute;
+    width: 15px;
+    height: 80px;
+    background-color: var(--hair);
+    top: 20px;
+    left: 30px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair5{
+    position: absolute;
+    width: 15px;
+    height: 130px;
+    background-color: var(--hair);
+    top: 50px;
+    left: 200px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair6{
+    position: absolute;
+    width: 15px;
+    height: 100px;
+    background-color: var(--hair);
+    top: 45px;
+    left: 188px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair7{
+    position: absolute;
+    width: 15px;
+    height: 65px;
+    background-color: var(--hair);
+    top: 35px;
+    left: 176px;
+    border-radius: 20%;
+    z-index: 1;
+}
+.hair8{
+    width: 210px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: var(--hair);
+    left: 6px;
+    top: 10px;
+    position: absolute; 
+    transform: rotate(8deg);
+    z-index: 1;
+}
+.hair9{
+
+}
+.ear1{
+    width: 30px;
+    height: 30px;
+    background-color: var(--skin);
+    position: absolute;
+    border-radius: 50%;
+    top: 150px;
+    left: -10px;
+    z-index: 0;
+}
+.ear2{
+    width: 30px;
+    height: 30px;
+    background-color: var(--skin);
+    position: absolute;
+    border-radius: 50%;
+    top: 150px;
+    left: 200px;
+    z-index: 0;
+}
